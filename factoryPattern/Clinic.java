@@ -1,7 +1,6 @@
 package factoryPattern;
 
 import java.util.Scanner;
-import factoryPattern.Dog;
 
 public class Clinic {
     public static void main(String[] args){
