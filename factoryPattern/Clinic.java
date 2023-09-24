@@ -10,6 +10,7 @@ public class Clinic {
             Scanner input = new Scanner(System.in);
             System.out.println("[1] Dog");
             System.out.println("[2] Cat");
+            System.out.println("[3] Exit");
             System.out.print("\nChoose your pet number: ");
             Integer choice = input.nextInt();
 
