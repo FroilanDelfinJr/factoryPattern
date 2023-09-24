@@ -10,6 +10,7 @@ public class Dog implements Pet {
     public void setBreed(String breed) {
         this.breed = breed;
     }
+
     @Override
     public String makeSound() {
         return "Aw, aw!";
