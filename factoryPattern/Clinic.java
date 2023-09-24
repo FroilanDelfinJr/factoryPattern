@@ -20,15 +20,15 @@ public class Clinic {
                 case 1: pet = new Dog();
                     petFile.setPetId("D01");
                     petFile.setPetName("Bantay");
-                    ((Dog) pet).setBreed("German Shepperd");
                     petFile.setPet(pet);
+                    ((Dog) pet).setBreed("German Shepperd");
                     break;
 
-                case 2: Cat cat = new Cat();
+                case 2: pet = new Cat();
                     petFile.setPetId("C01");
                     petFile.setPetName("Muning");
-                    petFile.setPet(cat);
-                    cat.setNoOfLives(9);
+                    petFile.setPet(pet);
+                    ((Cat) pet).setNoOfLives(9);
                     break;
 
                 case 3: System.exit(0);
